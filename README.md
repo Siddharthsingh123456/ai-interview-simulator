@@ -1,10 +1,1 @@
-# AI Interview Simulator
-
-Practice realistic interviews and get structured AI feedback.
-
-MERN + AI application using React, Express, MongoDB/Mongoose, OpenAI and Vercel.
-
-## Setup
-npm install && npm run dev
-
-Configure OPENAI_API_KEY and optionally MONGODB_URI. Never commit secrets.
+# AI Interview Simulator\n\nMERN + AI interview practice workspace for technical roles.\n\n## Features\n- Role and experience-level configuration\n- One-question-at-a-time interview flow\n- AI evaluation with strengths, gaps and better-answer guidance\n- MongoDB session persistence\n- Premium responsive interview UI\n- Node 24 + Vercel ready\n\n## Environment\nOPENAI_API_KEY=\nOPENAI_MODEL=gpt-4o-mini\nMONGODB_URI=\n\nImport into Vercel, add variables and deploy.
