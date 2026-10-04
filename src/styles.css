@@ -67,3 +67,13 @@ body:after{background:repeating-linear-gradient(135deg,#42ffe90b 0 1px,transpare
 .workspace .result{max-width:1500px;margin:14px auto!important;border:1px solid #35efbe30!important;border-radius:14px!important;background:#061311!important}
 .workspace .result pre{font-family:"IBM Plex Sans"!important;color:#b7eee0!important}
 .primary{background:linear-gradient(135deg,#d8fff3,#35efbe,#36d9ff)!important}
+
+
+/* FINAL SYSTEM — INTERVIEW / NEON COMMAND CTA + FORMS + FOOTER */
+button.primary{border:1px solid #64ffe0!important;border-radius:7px!important;background:#061512!important;color:#8affdf!important;font:800 10px "Sora"!important;box-shadow:0 0 0 1px #00d9a522,0 0 22px #00e5b31c!important;transition:.25s!important}
+button.primary:hover{background:#0b2923!important;box-shadow:0 0 0 1px #64ffe0,0 0 30px #00e5b355!important;transform:translateY(-2px)!important}
+input,textarea,select{border:1px solid #35efbe38!important;border-radius:7px!important;background:#020908!important;color:#d9fff5!important;font-family:"IBM Plex Sans"!important;box-shadow:inset 0 0 18px #00e5b308!important}
+input:focus,textarea:focus,select:focus{outline:none!important;border-color:#5fffe0!important;box-shadow:0 0 0 3px #35efbe0d,0 0 22px #00e5b326!important}
+.passwordField{display:grid!important;grid-template-columns:1fr auto!important;gap:6px!important}.passwordToggle{border:1px solid #35efbe35!important;border-radius:6px!important;background:#09211c!important;color:#76e5c8!important}
+footer{margin:65px 18px 0!important;padding:17px 20px!important;display:grid!important;grid-template-columns:auto 1fr auto!important;gap:20px!important;align-items:center!important;border:1px solid #35efbe2c!important;border-radius:10px!important;background:#061311!important;box-shadow:0 0 35px #00e5b30b!important}
+footer b{font:800 12px "Sora"!important;color:#a4ffe7!important}footer span{font:500 8px "IBM Plex Sans"!important;color:#6da99a!important}footer span:last-child{text-align:right!important}
