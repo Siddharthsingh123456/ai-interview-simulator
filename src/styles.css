@@ -53,3 +53,17 @@ body:after{background:repeating-linear-gradient(135deg,#42ffe90b 0 1px,transpare
 .nav nav button{min-width:72px!important;padding:9px 12px!important;border:0!important;border-right:1px solid #35efbe22!important;border-radius:4px!important;font-family:"Sora"!important}
 .nav nav button:last-child{border-right:0}
 .nav nav button:hover{background:#35efbe18!important;color:#7dffe0!important;box-shadow:inset 0 0 12px #35efbe12!important}
+
+
+/* POST-LOGIN V4 — INTERVIEW COACHING DECK */
+.workspace{min-height:calc(100vh - 68px);padding:34px clamp(16px,4vw,52px) 76px;background:radial-gradient(circle at 50% 0,#00e5b818,transparent 34%),#06100f}
+.workspaceHead{max-width:1500px!important;border-left:4px solid #35efbe!important;padding:18px 22px!important;background:#071716dd!important;border-radius:5px 16px 16px 5px!important}
+.workspaceHead h1,.tool h1{font-family:"Sora"!important;letter-spacing:-.05em!important}
+.workspaceHead p{color:#62b8a4!important}
+.workspace>.tool{max-width:1500px;margin:0 auto 14px!important;border:1px solid #35efbe35!important;border-radius:14px!important;background:linear-gradient(145deg,#0a1c19,#07100f)!important;box-shadow:0 20px 55px #0008!important}
+.workspace>.tool h1{font-size:38px!important}
+.workspace .row{display:grid;grid-template-columns:1fr 180px;gap:10px}
+.workspace textarea{min-height:230px!important;border:1px solid #35efbe30!important;border-radius:10px!important;background:#020807!important}
+.workspace .result{max-width:1500px;margin:14px auto!important;border:1px solid #35efbe30!important;border-radius:14px!important;background:#061311!important}
+.workspace .result pre{font-family:"IBM Plex Sans"!important;color:#b7eee0!important}
+.primary{background:linear-gradient(135deg,#d8fff3,#35efbe,#36d9ff)!important}
